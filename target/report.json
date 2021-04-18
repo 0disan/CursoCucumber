@@ -1,0 +1,598 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-18T19:26:45.766Z",
+        "line": 8,
+        "name": "Deve executar especificação",
+        "description": "",
+        "id": "aprender-cucumber;deve-executar-especificação",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1923800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que criei o arquivo corretamente",
+            "match": {
+              "location": "AprenderCucumberSteps.queCrieiOArquivoCorretamente()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 629200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "executá-lo",
+            "match": {
+              "location": "AprenderCucumberSteps.executáLo()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 562200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a especificação deve finalizar com sucesso",
+            "match": {
+              "location": "AprenderCucumberSteps.aEspecificaçãoDeveFinalizarComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unitários"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-18T19:26:45.821Z",
+        "line": 13,
+        "name": "Deve incrementar contador",
+        "description": "",
+        "id": "aprender-cucumber;deve-incrementar-contador",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 780200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que o valor do contador é 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 26
+                }
+              ],
+              "location": "AprenderCucumberSteps.queOValorDoContadorÉ(int)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 632900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "eu incrementar em 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "AprenderCucumberSteps.euIncrementarEm(int)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2092600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o valor do contador será 18",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 25
+                }
+              ],
+              "location": "AprenderCucumberSteps.oValorDoContadorSerá(int)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unitários"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-18T19:26:45.828Z",
+        "line": 19,
+        "name": "Deve incrementar contador",
+        "description": "",
+        "id": "aprender-cucumber;deve-incrementar-contador",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 717200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "que o valor do contador é 123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 26
+                }
+              ],
+              "location": "AprenderCucumberSteps.queOValorDoContadorÉ(int)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 520400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "eu incrementar em 35",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35",
+                  "offset": 18
+                }
+              ],
+              "location": "AprenderCucumberSteps.euIncrementarEm(int)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 514100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "o valor do contador será 158",
+            "match": {
+              "arguments": [
+                {
+                  "val": "158",
+                  "offset": 25
+                }
+              ],
+              "location": "AprenderCucumberSteps.oValorDoContadorSerá(int)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unitários"
+          },
+          {
+            "name": "@tipo1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-18T19:26:45.833Z",
+        "line": 25,
+        "name": "Deve calcular atraso na entrega",
+        "description": "",
+        "id": "aprender-cucumber;deve-calcular-atraso-na-entrega",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 8260700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "que a entrega é dia 05/04/2018",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05/04/2018",
+                  "offset": 20
+                }
+              ],
+              "location": "AprenderCucumberSteps.queAEntregaÉDia(Date)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 511000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "a entrega atrasar em 2 dias",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                },
+                {
+                  "val": "dias",
+                  "offset": 23
+                }
+              ],
+              "location": "AprenderCucumberSteps.aEntregaAtrasarEmDias(int,String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 504900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "a entrega será efetuada em 07/04/2018",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07/04/2018",
+                  "offset": 27
+                }
+              ],
+              "location": "AprenderCucumberSteps.aEntregaSeráEfetuadaEm(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unitários"
+          },
+          {
+            "name": "@tipo2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-18T19:26:45.845Z",
+        "line": 31,
+        "name": "Deve calcular atraso na entrega da china",
+        "description": "",
+        "id": "aprender-cucumber;deve-calcular-atraso-na-entrega-da-china",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 742700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "que a entrega é dia 05/04/2018",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05/04/2018",
+                  "offset": 20
+                }
+              ],
+              "location": "AprenderCucumberSteps.queAEntregaÉDia(Date)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 396200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "a entrega atrasar em 2 meses",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                },
+                {
+                  "val": "meses",
+                  "offset": 23
+                }
+              ],
+              "location": "AprenderCucumberSteps.aEntregaAtrasarEmDias(int,String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 438800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "a entrega será efetuada em 05/06/2018",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05/06/2018",
+                  "offset": 27
+                }
+              ],
+              "location": "AprenderCucumberSteps.aEntregaSeráEfetuadaEm(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unitários"
+          },
+          {
+            "name": "@tipo1"
+          },
+          {
+            "name": "@tipo2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-18T19:26:45.849Z",
+        "line": 36,
+        "name": "Deve criar steps genéricos para estes passos",
+        "description": "",
+        "id": "aprender-cucumber;deve-criar-steps-genéricos-para-estes-passos",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 459500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "que o ticket é AF345",
+            "match": {
+              "arguments": [
+                {},
+                {
+                  "val": "AF345",
+                  "offset": 15
+                }
+              ],
+              "location": "AprenderCucumberSteps.queOTicketÉAF(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2062500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "que o valor da passagem é R$ 230,45",
+            "match": {
+              "arguments": [
+                {
+                  "val": "230,45",
+                  "offset": 29
+                }
+              ],
+              "location": "AprenderCucumberSteps.queOValorDaPassagemÉR$(Double)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 407500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "que o nome do passageiro é \"Fulano da Silva\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fulano da Silva",
+                  "offset": 28
+                }
+              ],
+              "location": "AprenderCucumberSteps.queONomeDoPassageiroÉ(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 398100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "que o telefone do passageiro é 9999-9999",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9999-9999",
+                  "offset": 31
+                }
+              ],
+              "location": "AprenderCucumberSteps.queOTelefoneDoPassageiroÉ(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 322900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "criar os steps",
+            "match": {
+              "location": "AprenderCucumberSteps.criarOsSteps()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 363300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "o teste vai funcionar",
+            "match": {
+              "location": "AprenderCucumberSteps.oTesteVaiFuncionar()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unitários"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-18T19:26:45.856Z",
+        "line": 44,
+        "name": "Deve reaproveitar os steps \"Dado\" do cenário anterior",
+        "description": "",
+        "id": "aprender-cucumber;deve-reaproveitar-os-steps-\"dado\"-do-cenário-anterior",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 421700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "que o ticket é AB167",
+            "match": {
+              "arguments": [
+                {},
+                {
+                  "val": "AB167",
+                  "offset": 15
+                }
+              ],
+              "location": "AprenderCucumberSteps.queOTicketÉAF(String,String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 360900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "que o ticket especial é AB167",
+            "match": {
+              "arguments": [
+                {
+                  "val": " especial",
+                  "offset": 12
+                },
+                {
+                  "val": "AB167",
+                  "offset": 24
+                }
+              ],
+              "location": "AprenderCucumberSteps.queOTicketÉAF(String,String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 398000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "que o valor da passagem é R$ 1120,23",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1120,23",
+                  "offset": 29
+                }
+              ],
+              "location": "AprenderCucumberSteps.queOValorDaPassagemÉR$(Double)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 341600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "que o nome do passageiro é \"Cicrano de Oliveira\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cicrano de Oliveira",
+                  "offset": 28
+                }
+              ],
+              "location": "AprenderCucumberSteps.queONomeDoPassageiroÉ(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 348100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "que o telefone do passageiro é 9888-8888",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9888-8888",
+                  "offset": 31
+                }
+              ],
+              "location": "AprenderCucumberSteps.queOTelefoneDoPassageiroÉ(String)"
+            },
+            "keyword": "Dado "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unitários"
+          }
+        ]
+      }
+    ],
+    "name": "Aprender Cucumber",
+    "description": "\tComo um aluno\n\tEu quero aprender a utilizar Cucumber\n\tPara que eu possa automatizar critérios de aceitação",
+    "id": "aprender-cucumber",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/aprender_cucumber.feature",
+    "tags": [
+      {
+        "name": "@unitários",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
