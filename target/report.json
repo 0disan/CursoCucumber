@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-04-18T19:26:45.766Z",
+        "start_timestamp": "2021-05-16T02:26:36.041Z",
         "line": 8,
         "name": "Deve executar especificação",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1923800,
+              "duration": 1982500,
               "status": "passed"
             },
             "line": 9,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 629200,
+              "duration": 642200,
               "status": "passed"
             },
             "line": 10,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 562200,
+              "duration": 574900,
               "status": "passed"
             },
             "line": 11,
@@ -55,7 +55,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-18T19:26:45.821Z",
+        "start_timestamp": "2021-05-16T02:26:36.096Z",
         "line": 13,
         "name": "Deve incrementar contador",
         "description": "",
@@ -65,7 +65,7 @@
         "steps": [
           {
             "result": {
-              "duration": 780200,
+              "duration": 676200,
               "status": "passed"
             },
             "line": 14,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 632900,
+              "duration": 600500,
               "status": "passed"
             },
             "line": 15,
@@ -101,7 +101,7 @@
           },
           {
             "result": {
-              "duration": 2092600,
+              "duration": 2112600,
               "status": "passed"
             },
             "line": 16,
@@ -125,7 +125,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-18T19:26:45.828Z",
+        "start_timestamp": "2021-05-16T02:26:36.103Z",
         "line": 19,
         "name": "Deve incrementar contador",
         "description": "",
@@ -135,7 +135,7 @@
         "steps": [
           {
             "result": {
-              "duration": 717200,
+              "duration": 490400,
               "status": "passed"
             },
             "line": 20,
@@ -153,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 520400,
+              "duration": 406000,
               "status": "passed"
             },
             "line": 21,
@@ -171,7 +171,7 @@
           },
           {
             "result": {
-              "duration": 514100,
+              "duration": 369700,
               "status": "passed"
             },
             "line": 22,
@@ -198,7 +198,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-18T19:26:45.833Z",
+        "start_timestamp": "2021-05-16T02:26:36.107Z",
         "line": 25,
         "name": "Deve calcular atraso na entrega",
         "description": "",
@@ -208,7 +208,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8260700,
+              "duration": 8596700,
               "status": "passed"
             },
             "line": 26,
@@ -226,7 +226,7 @@
           },
           {
             "result": {
-              "duration": 511000,
+              "duration": 493600,
               "status": "passed"
             },
             "line": 27,
@@ -248,7 +248,7 @@
           },
           {
             "result": {
-              "duration": 504900,
+              "duration": 499000,
               "status": "passed"
             },
             "line": 28,
@@ -275,7 +275,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-18T19:26:45.845Z",
+        "start_timestamp": "2021-05-16T02:26:36.119Z",
         "line": 31,
         "name": "Deve calcular atraso na entrega da china",
         "description": "",
@@ -285,7 +285,7 @@
         "steps": [
           {
             "result": {
-              "duration": 742700,
+              "duration": 908200,
               "status": "passed"
             },
             "line": 32,
@@ -303,7 +303,7 @@
           },
           {
             "result": {
-              "duration": 396200,
+              "duration": 403200,
               "status": "passed"
             },
             "line": 33,
@@ -325,7 +325,7 @@
           },
           {
             "result": {
-              "duration": 438800,
+              "duration": 443000,
               "status": "passed"
             },
             "line": 34,
@@ -355,7 +355,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-18T19:26:45.849Z",
+        "start_timestamp": "2021-05-16T02:26:36.123Z",
         "line": 36,
         "name": "Deve criar steps genéricos para estes passos",
         "description": "",
@@ -365,7 +365,7 @@
         "steps": [
           {
             "result": {
-              "duration": 459500,
+              "duration": 603600,
               "status": "passed"
             },
             "line": 37,
@@ -384,7 +384,7 @@
           },
           {
             "result": {
-              "duration": 2062500,
+              "duration": 2260700,
               "status": "passed"
             },
             "line": 38,
@@ -402,7 +402,7 @@
           },
           {
             "result": {
-              "duration": 407500,
+              "duration": 435100,
               "status": "passed"
             },
             "line": 39,
@@ -420,7 +420,7 @@
           },
           {
             "result": {
-              "duration": 398100,
+              "duration": 372600,
               "status": "passed"
             },
             "line": 40,
@@ -438,7 +438,7 @@
           },
           {
             "result": {
-              "duration": 322900,
+              "duration": 389100,
               "status": "passed"
             },
             "line": 41,
@@ -450,7 +450,7 @@
           },
           {
             "result": {
-              "duration": 363300,
+              "duration": 371000,
               "status": "passed"
             },
             "line": 42,
@@ -468,7 +468,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-18T19:26:45.856Z",
+        "start_timestamp": "2021-05-16T02:26:36.131Z",
         "line": 44,
         "name": "Deve reaproveitar os steps \"Dado\" do cenário anterior",
         "description": "",
@@ -478,7 +478,7 @@
         "steps": [
           {
             "result": {
-              "duration": 421700,
+              "duration": 456300,
               "status": "passed"
             },
             "line": 45,
@@ -497,7 +497,7 @@
           },
           {
             "result": {
-              "duration": 360900,
+              "duration": 429800,
               "status": "passed"
             },
             "line": 46,
@@ -519,7 +519,7 @@
           },
           {
             "result": {
-              "duration": 398000,
+              "duration": 426100,
               "status": "passed"
             },
             "line": 47,
@@ -537,7 +537,7 @@
           },
           {
             "result": {
-              "duration": 341600,
+              "duration": 372100,
               "status": "passed"
             },
             "line": 48,
@@ -555,7 +555,7 @@
           },
           {
             "result": {
-              "duration": 348100,
+              "duration": 358000,
               "status": "passed"
             },
             "line": 49,
